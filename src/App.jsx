@@ -1,5 +1,7 @@
-import './App.css'
+// import './App.css'
+import Bg from './components/BgChnager/Bg'
 import Card from './components/Card'
+import PassGenerator from './components/PassGen/PassGenerator'
 
 function App() {
 
@@ -9,6 +11,8 @@ function App() {
       <Card username="Dcoder"/>
       <Card username=""/>
       <Card username=""/>
+      <Bg />
+      <PassGenerator/>
     </>
   )
 }
