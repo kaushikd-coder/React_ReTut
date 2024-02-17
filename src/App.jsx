@@ -2,7 +2,10 @@
 import Bg from './components/BgChnager/Bg'
 import Card from './components/Card'
 import Currency from './components/CurrencyConverter/Currency'
+import Login from './components/Login'
 import PassGenerator from './components/PassGen/PassGenerator'
+import Profile from './components/Profile'
+import UserContextProvider from './context/UserContextProvider'
 
 function App() {
 
